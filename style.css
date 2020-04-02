@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #db5959;
+}
+
+hr {
+	border-color: #5000FF;
+	border-width: 3px;
+	max-width: 60px;
+	border-radius: 90px; 
+}
+
+.buffer {
+	height: 11rem;
+}
+
+.btn {
+	font-weight: 1000;
+	border-radius: 50rem;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #5000FF;
+	color: white;
+	border-color: #5000FF;
+}
+
+.btn-primary:hover {
+	background-color: #4800e5;
+	border-color: #5000FF;
+	border-width: 3px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
